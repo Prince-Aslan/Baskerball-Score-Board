@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p id="home-score">0</p>
+            <div class=" point">
+                <span class="points" onclick="h_addOne()">+1</span>
+                <span class="points" onclick="h_addTwo()">+2</span>
+                <span class="points" onclick="h_addThree()">+3</span>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <p id="guest-score">0</p>
+            <div class=" point">
+                <span class="points" onclick="g_addOne()">+1</span>
+                <span class="points" onclick="g_addTwo()">+2</span>
+                <span class="points" onclick="g_addThree()">+3</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="foot">
+        <p>
+            &copy; Prince Peter 2024
+        </p>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

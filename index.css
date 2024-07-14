@@ -1,0 +1,87 @@
+body {
+    background-color: #080001;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url('misc/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.container {
+    margin-top: 180px;
+    margin-bottom: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 450px; 
+    width: 600px;  
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B244A;
+    align-items: center ;
+    text-align: center;
+ 
+    
+    
+    
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+h3:hover {
+    color:#F94F6D;;
+}
+
+#home-score, #guest-score {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color:#F94F6D;
+    padding: 16px 16px 0 0;
+    background-color: black;
+    height: 120px;
+    /* width: 155px; */
+    font-size: 100px;
+    font-family: 'CursedTimerUlil', Regular;
+    border-radius: 5px; 
+
+}
+
+#home-score:hover, #guest-score:hover {
+    color: whitesmoke;
+}
+
+.points{
+    
+    color: #9AABD8;
+    border: 3px solid #9AABD8;
+    margin: 0px 5px 45px 5px;
+    padding: 10px 8px;
+    font-size: 25px;
+    font-family: 'CursedTimerUlil', Regular;
+    border-radius: 5px; 
+}
+
+.points:hover {
+    background: #F94F6D;
+}
+
+
+.point {
+    width: auto;
+}
+
+/* 
+.foot {
+    color: #9AABD8;
+    text-align: center;
+   
+    padding-bottom: 200px;
+} */
